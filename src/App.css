@@ -1,0 +1,77 @@
+main {
+}
+
+
+.maze-button{
+  background-color: blue;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.maze-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.maze{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row
+}
+.cell{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+}
+
+/* .cell.wall {
+  background-color: black;
+} */
+@keyframes colorChange {
+  0%, 100% { background-color: blue; }
+  33% { background-color: purple; }
+  67% { background-color: yellow; }
+}
+
+.cell.wall {
+  animation: colorChange 5s infinite;  /* Continuously change wall colors */
+}
+
+
+
+.cell.visited {
+  background-color: orange; 
+}
+
+.cell.path {
+  background-color: white;
+}
+
+.cell.start {
+  background-color: green;
+}
+
+.cell.end {
+  background-color: red;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
