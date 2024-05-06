@@ -1,7 +1,8 @@
 #Dynamic Maze Solver
 
 #Project Overview
-The Dynamic Maze Solver is an interactive web application designed to visually demonstrate and explore maze-solving algorithms. This project leverages the power of React, using advanced React Hooks to manage state and animations dynamically. Users can generate mazes and visually track the execution of Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms as they navigate through the maze.
+
+#The Dynamic Maze Solver is an interactive web application designed to visually demonstrate and explore maze-solving algorithms. This project leverages the power of React, using advanced React Hooks to manage state and animations dynamically. Users can generate mazes and visually track the execution of Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms as they navigate through the maze.
 
 Features
 Dynamic Maze Generation: Allows users to create new mazes on demand.
